@@ -1,10 +1,10 @@
-package Casting;
+package Day_4;
 
 import java.util.Random;
 import java.lang.String;
 import java.util.Scanner;
 
-public class Main {
+public class RockPaperScissors {
 
     public static void main(String[] args) {
 
