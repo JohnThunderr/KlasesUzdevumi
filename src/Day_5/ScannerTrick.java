@@ -6,20 +6,35 @@ public class ScannerTrick {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        int score = 0;
+
+
         System.out.println("Ievadi skaitli: ");
-        if (sc.hasNextDouble())
+        if (sc.hasNextDouble()) {
             System.out.println(sc.nextDouble());
-        //sc.nextLine()
+            score++;
+        }
+        sc.nextLine();
 
         System.out.println("Ievadi boolean: ");
-        if (sc.hasNextBoolean())
+        if (sc.hasNextBoolean()) {
             System.out.println(sc.nextBoolean());
-        //sc.nextLine()
+            score++;
+        }
+        sc.nextLine();
 
-        System.out.println("Ievadi skaitli: ");
-        if (sc.hasNextLine())
+        System.out.println("Ievadi textu: ");
+        if (sc.hasNextLine()) {
             System.out.println(sc.nextLine());
-        //sc.nextLine()
+            score++;
+        }
+        sc.nextLine();
+
+
+        System.out.println("Kopējais punktu skaits: " + score);
+
+
+
 
 
 

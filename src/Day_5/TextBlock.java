@@ -4,18 +4,20 @@ public class TextBlock {
 
     public static void main(String[] args) {
 
-    //        \' Single quotation mark
-    //        \" Double quotation mark
-    //        \\ Backslash
-    //        \t Tab
-    //        \b Backspace
-    //        \r Carriage return
-    //        \f Formfeed
-    //        \n Newline
+    //        Iezīmējam tekstu un tad ctrl + /
+
+//            \' Single quotation mark
+//            \" Double quotation mark
+//            \\ Backslash
+//            \t Tab
+//            \b Backspace
+//            \r Carriage return
+//            \f Formfeed
+//            \n Newline
 
     //        Lai komentētu vairkāks rindas lietojam /* text here */
     //        Vai ja kaut kas ir uzrakstīts, piemēram kods, tad iezīmējam un ctrl + /
-
+        System.out.println(" \"Nosaukums\"");
         System.out.println("""
                 =============================================
                 
@@ -30,5 +32,6 @@ public class TextBlock {
                 
                 
                 """);
+
     }
 }
